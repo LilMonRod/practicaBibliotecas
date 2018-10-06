@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Practica 1 JS2</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="tabs">
+    <ul>
+      <li><a id="a-1"  href="#tabs-1">Nunc tincidunt</a></li>
+      <li><a href="#tabs-2">Proin dolor</a></li>
+      <li><a href="#tabs-3">Aenean lacinia</a></li>
+    </ul>
+    <div id="tabs-1" class="no-display">
+      <p>Proin elit arcu...</p>
+    </div>
+    <div id="tabs-2" class="display">
+      <p>Morbi tincidunt, dui sit amet...</p>
+    </div >
+    <div id="tabs-3" class="no-display"> 
+      <p>Mauris eleifend est...</p>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+  <script>
+    tabs('#tabs');
+  </script>
+</body>
+</html>
